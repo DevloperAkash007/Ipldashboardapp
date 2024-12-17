@@ -1,0 +1,43 @@
+.match-card {
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f172a;
+  color: #ffffff;
+  max-width: 300px;
+}
+@media screen and (max-width: 767px) {
+  .match-card {
+    width: 50%;
+  }
+}
+.competing-team-logo {
+  height: 200px;
+  width: 200px;
+}
+.competing-team {
+  flex-grow: 1;
+  font-size: 23px;
+  font-family: 'Bree serif';
+  font-weight: 400;
+  text-align: center;
+}
+.result {
+  color: #ffffff;
+  font-size: 23px;
+  font-family: 'Bree serif';
+  text-align: center;
+}
+.match-status {
+  font-size: 20px;
+  font-family: 'Bree serif';
+}
+.win {
+  color: #18ed66;
+}
+.lose {
+  color: #e31a1a;
+}
